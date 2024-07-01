@@ -49,6 +49,22 @@ print(y)
 
 ```
 
+## Instence vs Object 
+>in some of the cases instance and class considers as same but there is little difference between them here is explaination of instance and object.
+>>*object* :- a object reprsent blueprint or class
+
+>>instance :- it is unique copy of an object with it's own distinct of values
+
+```
+class Car:  # Object (blueprint)
+    def __init__(self, color, model):
+        self.color = color
+        self.model = model
+
+my_car = Car("red", "Toyota")  # Instance of the Car object
+your_car = Car("blue", "Honda")  # Another instance
+```
+
 
 ### what is an class
 
