@@ -4,6 +4,7 @@ this is the repo containing basic tutorials and code of OOPS and DSA
 
 ### What is object 
 >a object have a type like (int,str) of it's class
+>all the object store in a heap memory
 >>any number , list, all are object in python 
 >>>you can check it by using `type()` 
 >>> if you type `dir()` with any of the object it will provide all the function you can use with that object
@@ -47,3 +48,10 @@ print(y)
 
 
 ```
+
+
+### what is an class
+
+it is blueprint of object 
+* a class is blueprint of object means it contain all the things that need to make your idle object,    
+  object is created by following rules of a class. first class is created then object, there could be class without existing it's object
