@@ -24,7 +24,26 @@ y=x
 x.append(50)
 
 print("x=",x)
-print("y=",y)
+print("y=",y) 
+
+print(id(x))
+
+print(id(y))
 
 ```
 * you could think *x* will have values [5,10,15,20,50] and *y* will have values [5,10,15,20] but in python because of memeory optimization, so when you assign *x* values  to *y* (`y=x`) all the change made in *x* will reflect in *y* so both will have same output because their memeory  address assign to them is same. you can check it using `id()` method.
+
+* to handle this we have different methods like we can copy one list into another instead assigning values
+
+```
+x=[5,10,15,20]
+y=x.copy()
+
+x.append(854)
+
+
+print(x)
+print(y)
+
+
+```
